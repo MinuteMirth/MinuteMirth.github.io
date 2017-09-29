@@ -1,0 +1,10 @@
+.box {
+  display:flex;
+  margin:auto;
+  margin-top: 8rem;
+  background-color: #fff;
+  width: 300px;
+  height: 400px;
+  border: 2px solid #aeaeae;
+  padding: 20px 30px;
+}
