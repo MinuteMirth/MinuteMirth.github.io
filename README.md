@@ -22,9 +22,9 @@
 
 [Урок 10](https://github.com/MinuteMirth/MinuteMirth.github.io/tree/master/lesson_10)
 
-[Урок 11]((https://github.com/MinuteMirth/MinuteMirth.github.io/tree/master/lesson_10))
+[Урок 11](https://github.com/MinuteMirth/MinuteMirth.github.io/tree/master/lesson_10)
 
-[Урок 12]((https://github.com/MinuteMirth/MinuteMirth.github.io/tree/master/lesson_10))
+[Урок 12](https://github.com/MinuteMirth/MinuteMirth.github.io/tree/master/lesson_10)
 
 [Урок 13](https://github.com/MinuteMirth/MinuteMirth.github.io/tree/master/lesson_13)
 
