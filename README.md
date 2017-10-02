@@ -31,5 +31,7 @@
 
 [Урок 14](MinuteMirth.github.io/lesson_14/)
 
+[Практика](MinuteMirth.github.io/practice-2/)
+
 
 
