@@ -1,0 +1,244 @@
+@font-face {
+	font-family: 'ProximaNovaBold';
+	src: url('../fonts/ProximaNova-Bold.eot');
+	src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ProximaNova-Bold.woff2') format('woff2'),
+		url('../fonts/ProximaNova-Bold.woff') format('woff'),
+		url('../fonts/ProximaNova-Bold.ttf') format('truetype'),
+		url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ProximaNova';
+	src: url('../fonts/ProximaNova-Regular.eot');
+	src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+		url('../fonts/ProximaNova-Regular.woff') format('woff'),
+		url('../fonts/ProximaNova-Regular.ttf') format('truetype'),
+		url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+.reg() {
+	font-family: 'ProximaNova', sans-serif;
+}
+.bold() {
+	font-family: 'ProximaNovaBold', sans-serif;
+}
+
+/* Colors */
+@btn-color: #fcb303;
+@icons-color: #45b513;
+@text-color: #1a1820;
+@danger: #ff0000;
+@bg-light: #f5f5f5;
+@light: #fff;
+@border-color: #dddddd;
+
+/* basic setup */
+html {
+	font-size: 10px;
+}
+
+body {
+	.reg();
+}
+
+button, input, a {
+	&:focus {
+		outline: none;
+	}
+}
+
+.button {
+	border: none;
+	background-color: @btn-color;
+	color: @light;
+	padding: 1rem 3rem;
+	border-radius: 8px;
+	text-transform: uppercase;
+	transition: all 0.2s;
+	&:hover {
+		cursor: position;
+		background-color: darken(@btn-color, 4%);
+	}
+}
+
+/* Typography */
+section {
+	padding: 10rem 0;
+}
+
+/* main */
+
+.main {
+	padding: 3rem 0;
+	background: url(../img/main-bg.jpg) center no-repeat;
+	background-size: cover;
+	&-title {
+		h1 {
+			.bold();
+			line-height: 1.5;
+			text-transform: uppercase;
+		}
+		p {
+			.reg();
+			font-size: 2rem;
+			margin-top: 3rem;
+			margin-bottom: 5rem;
+		}
+		strong {
+			.bold();
+			font-size: 2rem;
+		}
+	}
+	&-cost {
+			display: block;
+			padding: 2rem 3rem;
+			width: 19rem;
+			height: 9rem;
+			color: @light;
+			text-align: center;
+			background-color: @icons-color;
+		}
+	&-trigger {
+			text-transform: uppercase;
+			.bold();
+			margin-top: 5rem;
+			display: block;
+			font-weight: 900;
+	}
+	&-form {
+		text-align: center;
+		padding: 4rem 5rem;
+		background-color: @light;
+		margin-top: 2rem;
+		&-header {
+			.reg();
+			font-size: 1.4rem;
+			margin-bottom: 4rem;
+		}
+		&-input {
+			padding: 1.2em 2rem; 
+			margin-bottom: 2rem;
+			width: 100%;
+			border-radius: 5px;
+			border: 1px solid @border-color;
+		}
+		&-btn {
+			background-color: @btn-color;
+			width: 100%;
+			padding: 2rem 5rem;
+			margin-bottom: 1.4rem;
+			display: block;
+		}
+		label {
+			.reg();
+			font-size: 1.3rem;
+			position: absolute;
+			left: 50%;
+			display: inline-block;
+			transform: translateX(-50%) translateY(-50%);
+			font-weight: 300;
+			background-color: @light;
+			text-align: center;
+		}
+	}
+	&-tip {
+		margin-top: 2rem;
+		display: block;
+		margin-left: 4rem;
+	}
+}
+
+.header {
+	height: 7rem;
+}
+
+.wrap {
+	display: table;
+	width: 100%;
+	height: 7rem;
+	margin-left: 1.3rem;
+	&-block {
+		display: table-cell;
+		vertical-align: middle;
+	}
+	margin-bottom: 5rem;
+}
+
+.phone-block {
+	.bold();
+	height: 7rem;
+	line-height: 7rem;
+	display: inline-block;
+	color: @text-color;
+	font-weight: 900;
+	font-size: 1.6rem;
+	margin-left: 3rem;
+	&:hover {
+		text-decoration: none;
+		color: #111;
+	}
+}
+
+@media (max-width: 992px) {
+  .main {
+    background-position: top right;
+  }
+  .main-tip {
+    color: #fff;
+  }
+  .phone-block {
+    text-align: center;
+  }
+  .main-content {
+    text-align: center;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width : 768px){
+	.main {
+		background-position: top left;
+		height: 120vh;
+		&-cost {
+			margin-left: 26rem;
+		}
+	}
+	.header {
+		text-align: center;
+	}
+	.wrap-block {
+		text-align: center;
+	}
+
+}
+
+@media (max-width : 480px){
+	.main {
+		height: 200vh;
+		&-title {
+			h1 {
+				font-size: 2.7rem;
+			}
+			&-cost {
+				text-align: center;
+			}
+		}
+		&-cost {
+			margin: 0 auto;
+		}
+		&-tip {
+			color: #000;
+		}
+	}
+	.wrap {
+		margin-left: 1rem;
+	}
+}
