@@ -31,7 +31,21 @@
 
 [Урок 14](MinuteMirth.github.io/lesson_14/)
 
-[Практика](MinuteMirth.github.io/practice-2/)
+[Урок 15](MinuteMirth.github.io/lesson_15/)
+
+[Урок 16](MinuteMirth.github.io/lesson_16/)
+
+[Урок 17](MinuteMirth.github.io/lesson_17/)
+
+[Практика-1](MinuteMirth.github.io/practice-1/)
+
+[Практика-2](MinuteMirth.github.io/practice-2/)
+
+[Практика-3](MinuteMirth.github.io/practice-3/)
+
+[Практика-4](MinuteMirth.github.io/practice-4/)
+
+[Практика-5](MinuteMirth.github.io/practice-5/)
 
 
 
