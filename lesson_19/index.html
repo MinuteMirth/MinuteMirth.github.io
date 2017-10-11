@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+<body>
+
+    <div class="container">
+        <div class="main animated flipInX">
+            <div class="my-tab">
+                <div class="angle-img">
+                    <img src="img/flaps-left.png" alt="">
+                </div>
+                <div>
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a class="fix" href="#enter" data-toggle="tab">Вход</a></li>
+                        <li role="presentation"><a class="fix" href="#reg" data-toggle="tab">Регистрация</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="enter">
+                            <div class="tab-window">
+                                <div class="user-info">
+                                    <input class="user-input" type="text" placeholder="Ваше имя">
+                                    <input class="user-input" type="text" placeholder="Пароль">
+                                    <p>Забыли пароль?</p>
+                                    <div class="reminder">
+                                        <input type="checkbox">
+                                        <span>Напомнить мне</span>
+                                    </div>
+                                </div>
+                                <div class="enter-button">Войти</div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="reg">
+                            <div class="tab-window">
+                                <div class="user-info">
+                                    <input class="user-input" type="text" placeholder="Ваше имя">
+                                    <input class="user-input" type="text" placeholder="Пароль">
+                                    <p>Забыли пароль?</p>
+                                    <div class="reminder">
+                                        <input type="checkbox">
+                                        <span>Напомнить мне</span>
+                                    </div>
+                                </div>
+                                <div class="enter-button animated bounce infinite">Войти</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
